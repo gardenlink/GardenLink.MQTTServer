@@ -1,0 +1,7 @@
+#CURL TESTS
+
+#publicar informacion
+curl -X PUT -d 'world' http://localhost:3000/resources/hello
+
+#Leer informacion
+curl http://localhost:3000/resources/hello

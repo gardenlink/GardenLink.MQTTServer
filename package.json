@@ -1,0 +1,34 @@
+{
+  "name": "GardenLink.MQTTServer",
+  "version": "0.0.1",
+  "dependencies": {
+    "bunyan": "^1.8.1",
+    "ponte": "0.0.16"
+  },
+  "apidoc": {
+    "title": "GardenLink.MQTTServer",
+    "url": "https://github.com/GardenLink/GardenLink.MQTTServer.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "Sistema de control de riego utilizando Raspberry y Arduino",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "Riego",
+    "Huerta",
+    "Planta"
+  ],
+  "author": "Diego Navarro M.",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gerdenlink/GardenLink.MQTTServer.git"
+  },
+  "engines": {
+    "node": "4.0"
+  }
+}
