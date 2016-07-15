@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "dependencies": {
     "bunyan": "^1.8.1",
-    "ponte": "0.0.16"
+    "mosca": "^2.0.2",
+    "ponte": "0.0.16",
+    "mqtt": "1.12.0"
   },
   "apidoc": {
     "title": "GardenLink.MQTTServer",
