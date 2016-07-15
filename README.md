@@ -55,6 +55,41 @@ curl -X PUT -d 'world' http://localhost:3000/resources/hello
 curl http://localhost:3000/resources/hello
 
 
+### Configurar
+
+Modificar archivo config.js (los puertos son los por defecto y la base de datos es levelup)
+
+    module.exports = {
+      logger: {
+        level: `info`
+      },
+      http: {
+        port: 3000
+      },
+      mqtt: {
+        port: 1883
+      },
+      coap: {
+        port: 3000
+      },
+      persistence: {
+        type: `level`,	
+        path: `./db`	
+      }
+
+    };
+
+### Versiones compatibles
+
+Probado en:
+	Windows 10 con node 4.3.0 y npm 2.3.0
+    Raspibian con node 4.0.0 y npm 2.14.2
+    
+El modulo Ponte no funciona en:
+	Linux Mint 17 xfce 64-bit con node 0.10.25 y npm 1.3.10
+    
+    
+
 
 
 
