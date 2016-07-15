@@ -84,12 +84,7 @@ Modificar archivo config.js (los puertos son los por defecto y la base de datos 
 Probado en:
 	Windows 10 con node 4.3.0 y npm 2.3.0
     Raspibian con node 4.0.0 y npm 2.14.2
+    Linux Mint 17 xfce 64-bit con node 4.3.0 y npm 2.14.12
     
 El modulo Ponte no funciona en:
 	Linux Mint 17 xfce 64-bit con node 0.10.25 y npm 1.3.10
-    
-    
-
-
-
-
