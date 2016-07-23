@@ -13,7 +13,7 @@ module.exports = {
   },
   persistence: {
     type: 'level',
-    path: './db'
+    path: (process.env.HOME || process.env.HOMEPATH || process.env. USERPROFILE) + '/db'
   }
 
 };
