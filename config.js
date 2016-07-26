@@ -1,3 +1,5 @@
+var path   = require ('path');
+
 module.exports = {
   logger: {
     level: 'info'
@@ -13,7 +15,7 @@ module.exports = {
   },
   persistence: {
     type: 'level',
-    path: (process.env.HOME || process.env.HOMEPATH || process.env. USERPROFILE) + '/db'
+    path: path.join(path.resolve(__dirname),"db")
   }
 
 };
